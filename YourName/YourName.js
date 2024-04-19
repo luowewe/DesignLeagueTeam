@@ -1,6 +1,6 @@
-const coinSfx = new Sfx('sfx/Mario Coin.wav');
-const pipeSfx = new Sfx('sfx/Mario Pipe.wav');
-const powerUpSfx = new Sfx('sfx/Mario Powerup.wav');
+const coinSfx = new Sfx('sfx/MarioCoin.wav');
+const pipeSfx = new Sfx('sfx/MarioPipe.wav');
+const powerUpSfx = new Sfx('sfx/MarioPowerup.wav');
 const container = document.querySelector('.content');
 let ninja;
 
