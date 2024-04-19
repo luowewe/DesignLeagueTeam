@@ -8,8 +8,7 @@ h1{
 }
 
 /* ======= Initialize ======== */
-/* Initialize
-====================== */
+
 
 *,
 ::before,
@@ -22,8 +21,8 @@ h1{
 :root {
 	--accent-color: #34495e;
 	--bg-color: #ecf0f1;
-	--main-font: 'Montserrat', sans-serif;
-	--sub-font: 'Work Sans', sans-serif;
+	--main-font: "Bungee Spice", sans-serif;
+	--sub-font: 'Georgia', sans-serif;
 	--g-ratio: 1.618;
 }
 
