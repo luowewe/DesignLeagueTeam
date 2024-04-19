@@ -12,23 +12,43 @@
   <script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
 
 </head>
-<body>
-  <h1>My Awesome Space</h1>
-  <div class="wrapper">
-    <div class="top-container">
-      <div class="lab-info">
-        <h3>Date</h3>
-        <h3> Lab sound and avatar JS</h3>
-      </div>
-      <div class="btns-container">
-        <button onclick="promptUser()">NEW Avatar</button>
-      </div>
+<body style="overflow: hidden !important;">
+    <div class="loader">
+        <div class="loader-container">
+            <svg height="224px" width="224px">
+                <rect class="animate" height="224px" width="224px"/>
+            </svg>
+            <div class="box">
+                <div class="box__1"></div>
+                <div class="box__2"></div> 
+            </div>
+        </div>
     </div>
-    <!--CONTENT-->
-    <div class="content">
-      
+    <div class="wrapper">
+        <div class="container">
+
+            <!-- Lab Info -->
+            <div class="top-container">
+                <div class="lab-info">
+                    <h1>Lab #4</h1>
+                    <h3>10/24/19</h3>
+                    <h3>Hikaru Okamoto</h3>
+                    <hr>
+                </div>
+                <div class="btns-container">
+                    <button onclick="promptUser()">New</button>
+                </div>
+            </div>
+
+            <!-- Content -->
+            <div class="content">
+                
+            
+            </div>
+
+        </div>
     </div>
-  </div>
-  <script src="yourName.js"></script>
+    <script src="../loader.js"></script>
+    <script src="lab4.js"></script>
 </body>
 </html>
